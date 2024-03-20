@@ -1,0 +1,6 @@
+spring:
+  application:
+    name: User
+  config:
+    import: optional:configserver:http://localhost:8888
+secret_key : gQ7opnLAA3KvHX7JvkCniaBlkbAU1Qfvzdacp+sfXEFo3n6/pFBNxHFvqyr6BpWm
